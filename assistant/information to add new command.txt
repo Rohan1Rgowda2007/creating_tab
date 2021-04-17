@@ -1,0 +1,30 @@
+EDIT YOUR OWN CONFIGURATION IN THIS PROJECT
+
+(NOTE DON'T DELETE ANY FILE IN THIS ASSISTANT DIRECTRY IT WILL NOT WORK)
+ # plese edit carefully
+
+1 . IF YOU WANT TO USE YOUR OWN LOGIC IN THIS ASSISTANT FILE
+   a . creat that logic file and import it in opening_the_file_backend
+   b . after importing the file creat def fun in this class(Mainfunction)
+
+2 . AFTER CREATING THE DEF FILE IN THE CLASS (Mainfunction)
+   a . you can use that fun in (main_assistant_frontend.py)
+   b . just creat an if condition and type this syntax
+      ( if speaker == (thing what you want to edit):
+            and call that function
+            (at last you should compulsory us heart() to keep executing your code again and again)    )
+
+3 . WHEN YOU WANT TO OPEN SOME APK this methord will be used
+  a . you should creat a def file in backend class (Mainfunction)
+      you should use this syntax
+      ( subprocess.call("here put your apk path")
+      )
+
+  b . then in the file main_assistant_frontend.py
+      use (if speaker == 'name of your apk':
+               call that methort
+                                            )
+
+# you can config this file or directory how ever you want
+
+ BUT CONFIG CAREFFULLY
